@@ -50,9 +50,9 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 ## 🔓 Open-Source GitHub Projects ⚡
 
-*Sorted by GitHub Star Count (descending). Badges link directly to stargazers.*
+*Sorted by GitHub Stars_Count (descending). Badges link directly to stargazers.*
 
-| Repo 📦 | Description 📝 | Stars ⭐ |
+| Repo 📦 | Description 📝 | GitHub_Stars ⭐ |
 | :--- | :--- | :--- |
 | **[Transformers (Hugging Face)](https://github.com/huggingface/transformers)** | State-of-the-art Machine Learning & NLU models for PyTorch, TensorFlow, and JAX. | [<img src="https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white" alt="Transformers Stars" />](https://github.com/huggingface/transformers/stargazers) |
 | **[LangChain](https://github.com/langchain-ai/langchain)** | Building applications with LLMs through composability, memory, retrieval, and agents. | [<img src="https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white" alt="LangChain Stars" />](https://github.com/langchain-ai/langchain/stargazers) |
