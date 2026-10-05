@@ -1,161 +1,106 @@
-# Awesome-Conversational-AI-Platform
+# 🚀 Awesome Conversational AI Platform 🤖
 
-# Awesome-Conversational-AI-Platform
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Market Metrics 2026](https://img.shields.io/badge/Market_Metrics-2026-blue?style=flat-square)](https://github.com/ishandutta2007/Awesome-Conversational-AI-Platform) [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Conversational-AI-Platform/blob/main/README.md#-%EF%B8%8F-how-to-contribute) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+![Awesome Conversational AI Banner](assets/banner.svg)
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Enterprise Chatbots, Virtual Agents & Omnichannel Automation*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Conversational AI**. These tools help enterprises build, deploy, and manage AI-powered chatbots and voice assistants across websites, messaging apps, and contact centers.
-
-
-
-**Examples** include Microsoft Copilot Studio, Google Dialogflow, Amazon Lex, IBM watsonx Assistant, Rasa, Cognigy, Yellow.ai, Ada, Kore.ai, and Boost.ai (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source conversational AI ecosystem is **mature and production-proven**. **Rasa** remains the leading open-source framework for enterprise NLU and dialogue management, with **$70.22M raised** and a strong presence in regulated industries . **Botpress** provides a visual drag-and-drop builder with managed NLU. **LangChain** has become the de facto standard for building LLM-powered applications, with **137,891 GitHub stars** . **Flowise** and **Langflow** offer visual builders for LangChain-powered agents.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## 📖 Table of Contents
-
-
-
-- [☁️ SaaS/Hosted Platforms](#-saas-hosted-platforms)
-
-- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
-- [🤝 How to Contribute](#-how-to-contribute)
-
-- [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## ☁️ SaaS/Hosted Platforms
-
-
-
-> **📊 Market Context**: The global conversational AI market is estimated at **~$14.79B in 2025**, growing toward **~$82.46B by 2034** at a **~21% CAGR** . The sector is **moderately fragmented** — Google, Microsoft, AWS, IBM, and Cognigy are top players . **Pricing models vary dramatically**: Cognigy starts at **$2,500/month** , Boost.ai at **$50,000/year** , and Ada at **$33,000/year** for 60,000 conversations . **Yellow.ai** offers a freemium tier with **5,000 monthly bot conversations** , while **Kore.ai** provides **5,000 free sessions** per account .
-
-
-
-| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-
-|----------|-------------|------------------------|------------------|--------------|
-
-| **[Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio)** | **Microsoft's enterprise conversational AI platform.** Build custom copilots and agents integrated with Microsoft 365, Teams, and Dynamics 365. | **$200/month** for 25,000 messages (tenant packs). **Copilot Studio** bundled with qualifying M365 licenses. | **Free trial**: 30-day trial with full platform access. **Copilot Chat**: Free for eligible users with metered workloads. | **$331.8B revenue (FY2026), ~$3.8T market cap**  |
-
-| **[Google Dialogflow](https://cloud.google.com/dialogflow)** | Google's conversational AI platform with NLU, intent recognition, and entity extraction. **Dialogflow CX** for advanced flow-based design. | **Dialogflow ES**: Free tier; **$0.002 per text query** after free tier. **Dialogflow CX**: **$0.007 per text query**. | **Dialogflow ES free tier**: **1,000 text queries/day**. **Dialogflow CX free trial**: $600 GCP credits for 90 days. | **~$350B revenue (Alphabet FY2025)** |
-
-| **[Amazon Lex](https://aws.amazon.com/lex/)** | AWS conversational AI using the same deep learning as Alexa. Intent recognition, slot filling, multi-turn dialogue. | **V2**: **$0.00075 per text request**; **$0.004 per audio request**. | **AWS Free Tier**: **10,000 text requests/month** + **5,000 speech requests/month** for 12 months. | **~$638B revenue (Amazon FY2025)** |
-
-| **[IBM watsonx Assistant](https://www.ibm.com/products/watsonx-assistant)** | IBM's enterprise AI assistant with NLU, actions, and integrations. | **Lite**: Free; **Plus**: **$140/month** (1,000 MAU); **Enterprise**: Custom. | **Lite plan**: Free with **1,000 unique monthly users**. | **~$63B revenue (IBM FY2025)** |
-
-| **[Cognigy](https://www.cognigy.com/)** | Enterprise conversational AI platform with NLU, dialogue management, and omnichannel deployment. | **$2,500/month** (starting) . | **Free trial**: Full platform access, no credit card required . | **Private (~$100M+ raised est.)** |
-
-| **[Yellow.ai](https://yellow.ai/)** | Conversational AI for customer support and employee experience. NLU, voice, multi-channel. | **Premium**: Custom pricing (sales-led). Module-based charges for MRU and WhatsApp usage . | **Freemium plan**: **5,000 monthly bot conversations**, FAQ module, unlimited agent seats, 500 tickets/month, 2 channels . | **~$102M raised, ~$1B valuation est.** |
-
-| **[Ada](https://www.ada.cx/)** | Enterprise AI customer service platform. Facilitating over 4 billion automated interactions. | **Enterprise-only**. AWS Marketplace: **$33,000/year** for 60,000 conversations. Capterra lists **$60,000/year** starting . | **None** — no free tier or free trial. Enterprise demo required . | **Private (~$200M+ raised est.)** |
-
-| **[Kore.ai](https://kore.ai/)** | Enterprise conversational AI with virtual assistants, NLU, multi-channel deployment. | **Pay-as-you-go**: Reload from **$100**. **Standard Plan**: All features except AD sync. **Enterprise Plan**: Full platform access, higher limits . | **Free sessions**: **5,000 sessions** per account (up to 5 bots). **Free trial plan**: Enterprise features with free sessions . | **~$150M+ raised, ~$1B valuation est.** |
-
-| **[Boost.ai](https://boost.ai/)** | Enterprise conversational AI for customer service. | **$50,000/year** (starting) . | **None** — enterprise demo required. | **Private (~$50M+ raised est.)** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-Sorted by star count (descending). Star badge links to each repo's stargazers page.
-
-
-
-| Repo | Description | Stars |
-
-|---|---|---|
-
-| **[LangChain](https://github.com/langchain-ai/langchain)** — **The de facto standard for building LLM-powered applications.** Agent engineering platform with tools, memory, and retrieval. **137,891 stars** as of May 2026 . MIT. | [![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | ~137,900 |
-
-| **[Rasa](https://github.com/RasaHQ/rasa)** — **The leading open-source conversational AI framework for enterprise.** NLU pipelines, dialogue management, custom Python actions, multi-channel (Slack, Telegram, Messenger, Twilio). **$70.22M raised** . Apache-2.0. | [![Stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white)](https://github.com/RasaHQ/rasa/stargazers) | ~19,000 |
-
-| **[Botpress](https://github.com/botpress/botpress)** — **First open-source framework for AI digital assistants.** Visual drag-and-drop builder, managed NLU, multi-lingual (11 one-click + 157 via FastText), HITL handoff. AGPLv3. | [![Stars](https://img.shields.io/github/stars/botpress/botpress?style=social&color=white)](https://github.com/botpress/botpress/stargazers) | ~13,500 |
-
-| **[Chainlit](https://github.com/Chainlit/chainlit)** — **Fast Python framework for ChatGPT-like conversational UIs.** Streaming over WebSocket/SSE, file uploads, step visualization, native LangChain/LlamaIndex integration. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/Chainlit/chainlit?style=social&color=white)](https://github.com/Chainlit/chainlit/stargazers) | ~9,500 |
-
-| **[Flowise](https://github.com/FlowiseAI/Flowise)** — **Drag-and-drop LLM chatbot builder powered by LangChain.** Visual node editor, pre-built templates, multi-provider LLM support. Apache-2.0. | [![Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers) | ~42,000 |
-
-| **[Langflow](https://github.com/langflow-ai/langflow)** — **Visual framework for building multi-agent AI applications.** Drag-and-drop LLM workflows, multi-agent orchestration, API deployment. MIT. | [![Stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers) | ~65,000 |
-
-| **[BotMan](https://github.com/botman/botman)** — **Most popular open-source PHP chatbot framework.** Framework-agnostic (Laravel, Symfony), write once deploy everywhere (Slack, Telegram, Messenger, WeChat, Alexa). MIT. | [![Stars](https://img.shields.io/github/stars/botman/botman?style=social&color=white)](https://github.com/botman/botman/stargazers) | ~5,800 |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-
-|---|---|
-
-| **[Transformers (Hugging Face)](https://github.com/huggingface/transformers)** — State-of-the-art ML models for text, vision, and audio. Apache-2.0 . | [![Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers) |
-
-| **[AstrBot](https://github.com/AstrBotDevs/AstrBot)** — All-in-one Agent chatbot platform for IM apps. 1000+ plugins. | [![Stars](https://img.shields.io/github/stars/AstrBotDevs/AstrBot?style=social&color=white)](https://github.com/AstrBotDevs/AstrBot/stargazers) |
-
-| **[Typebot](https://github.com/baptisteArno/typebot.io)** — Open-source conversational form and lead-gen chatbot builder. AGPLv3. | [![Stars](https://img.shields.io/github/stars/baptisteArno/typebot.io?style=social&color=white)](https://github.com/baptisteArno/typebot.io/stargazers) |
-
-| **[Chatwoot](https://github.com/chatwoot/chatwoot)** — Open-source customer support with Captain AI agent. MIT. | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Conversational AI platforms handle sensitive customer conversations and potentially PII; ensure compliance with GDPR, CCPA, and applicable data protection regulations.
-
-- **Open-source reality**: The open-source ecosystem for conversational AI is **mature and production-proven**. **Rasa** is the leading enterprise-grade framework with **$70.22M raised** . **LangChain** has become the de facto standard for LLM applications with **137,891 stars** . **Botpress** provides a visual drag-and-drop builder. However, **commercial platforms** (Copilot Studio, Dialogflow, Cognigy, Kore.ai) provide **managed infrastructure, enterprise SLAs, and integrated omnichannel deployment** that open-source alternatives require significant operational investment to match. The open-source path is **genuinely viable** for organizations with strong development capacity seeking full control over their conversational AI stack.
-
-- **Pricing caveat**: All pricing figures above are **verified against cited search results** but may change without notice. **Ada has no free tier** , **Boost.ai starts at $50,000/year** , and **Cognigy starts at $2,500/month** . Always request a formal quote for accurate budgeting.
-
-
+> **Curated directory of Enterprise Conversational AI SaaS Platforms, Voice AI Agents, Chatbot Frameworks, and Open-Source LLM Automation Tools.**
 
 ---
 
+## 💡 Overview & Ecosystem Insights 🌟
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Conversational AI**, **Voice Assistants**, **Virtual Agents**, and **Omnichannel Support Automation**. These tools help enterprise architects, AI developers, and CX leaders build, deploy, and manage production-grade chatbots and LLM-powered virtual assistants across web, mobile, messaging apps, and cloud contact centers.
 
-**Made for conversational AI engineers, customer experience teams, and enterprise architects.**
+- **Market Category Leaders**: Microsoft Copilot Studio, Google Dialogflow, Amazon Lex, IBM watsonx Assistant, Rasa, Cognigy, Yellow.ai, Ada, Kore.ai, and Boost.ai.
+- **Open-Source Ecosystem**: Production-proven and mature. **Rasa** leads enterprise NLU/dialogue management ($70.22M raised). **LangChain** is the standard for LLM orchestration (~137,900 stars). **Botpress** & **Typebot** offer visual flow builders, while **Flowise** & **Langflow** provide visual drag-and-drop LLM pipelines.
 
-Let's make conversational AI more open, transparent, and accessible.
+---
+
+## 📖 Table of Contents 📑
+
+- [☁️ SaaS/Hosted Platforms](#%EF%B8%8F-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [❤️ Support & Sponsorship](#%EF%B8%8F-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## ☁️ SaaS/Hosted Platforms 🌐
+
+> **📊 Market Size & Structure**: The global conversational AI market size is estimated at **~$14.79B in 2025**, projected to reach **~$82.46B by 2034** at a **~21% CAGR**. The market is **moderately fragmented**, led by cloud hyperscalers (Microsoft, Google, AWS, IBM) alongside specialized enterprise AI platforms (Cognigy, Kore.ai, Yellow.ai). 
+
+*Sorted by Company Size / Valuation / Revenue (descending).*
+
+| Platform 🏢 | Description 📝 | Pricing (Starting Tier) 💵 | Free Tier Limits 🎁 | Company Size (Revenue / Valuation) 📈 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Lex](https://aws.amazon.com/lex/)** | AWS conversational AI using deep learning NLU. Intent recognition, slot filling, and multi-turn voice/chat dialogue. | **V2**: **$0.00075 per text request**; **$0.004 per audio request** | **AWS Free Tier**: **10,000 text requests/month** + **5,000 speech requests/month** for 12 months | **~$638B revenue (Amazon FY2025)** |
+| **[Google Dialogflow](https://cloud.google.com/dialogflow)** | Google's enterprise conversational AI platform with NLU and flow-based design (**Dialogflow CX**). | **Dialogflow ES**: **$0.002 per text query**. **Dialogflow CX**: **$0.007 per text query** | **Dialogflow ES**: **1,000 text queries/day** free. **Dialogflow CX**: **$600 GCP credits** for 90 days | **~$350B revenue (Alphabet FY2025)** |
+| **[Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio)** | Microsoft's enterprise agent platform integrated with Microsoft 365, Teams, and Dynamics 365. | **$200/month** for 25,000 messages (tenant pack) | **Free trial**: **30-day trial** with full platform access | **$331.8B revenue (FY2026), ~$3.8T market cap** |
+| **[IBM watsonx Assistant](https://www.ibm.com/products/watsonx-assistant)** | Enterprise AI assistant platform with NLU, customer care flows, and multi-cloud deployment. | **Lite**: Free; **Plus**: **$140/month** (includes 1,000 MAU) | **Lite plan**: Free forever with **1,000 unique monthly active users** | **~$63B revenue (IBM FY2025)** |
+| **[Kore.ai](https://kore.ai/)** | Enterprise conversational AI & generative AI platform for virtual assistants and contact center automation. | **Pay-as-you-go**: Minimum reload from **$100** | **Free plan**: **5,000 free sessions** per account (up to 5 bots) | **~$1B valuation** (~$150M+ raised) |
+| **[Yellow.ai](https://yellow.ai/)** | Omnichannel conversational AI for customer support and employee automation. | **Premium**: Custom enterprise quote (sales-led) | **Freemium plan**: **5,000 monthly bot conversations** + 500 tickets/month | **~$1B valuation** (~$102M raised) |
+| **[Cognigy](https://www.cognigy.com/)** | Enterprise contact center AI automation platform for voice and chat agents. | **Starting at ~$2,500/month** (Enterprise contracts up to **$300,000+/year**) | **Free trial / Pilot**: **Custom enterprise proof-of-concept** upon request | **~$100M+ raised (Est. $500M+ valuation)** |
+| **[Ada](https://www.ada.cx/)** | Automated enterprise customer service platform powered by generative AI. | **AWS Marketplace**: **$33,000/year** for 60,000 conversations | **No free tier** (Requires scheduled enterprise sales demo) | **~$200M+ raised (Est. $1B+ valuation)** |
+| **[Boost.ai](https://boost.ai/)** | Enterprise conversational AI platform tailored for banking, insurance, and public sector. | **Starting at $50,000/year** | **No free tier** (Requires enterprise demo) | **Private (~$50M+ raised)** |
+
+---
+
+## 🔓 Open-Source GitHub Projects ⚡
+
+*Sorted by GitHub Star Count (descending). Badges link directly to stargazers.*
+
+| Repo 📦 | Description 📝 | Stars ⭐ |
+| :--- | :--- | :--- |
+| **[Transformers (Hugging Face)](https://github.com/huggingface/transformers)** | State-of-the-art Machine Learning & NLU models for PyTorch, TensorFlow, and JAX. | [<img src="https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white" alt="Transformers Stars" />](https://github.com/huggingface/transformers/stargazers) |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | Building applications with LLMs through composability, memory, retrieval, and agents. | [<img src="https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white" alt="LangChain Stars" />](https://github.com/langchain-ai/langchain/stargazers) |
+| **[Langflow](https://github.com/langflow-ai/langflow)** | Dynamic graph-based UI for building multi-agent AI applications and vector pipelines. | [<img src="https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white" alt="Langflow Stars" />](https://github.com/langflow-ai/langflow/stargazers) |
+| **[Flowise](https://github.com/FlowiseAI/Flowise)** | Drag & drop UI to build customized LLM flows and AI agent workflows. | [<img src="https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white" alt="Flowise Stars" />](https://github.com/FlowiseAI/Flowise/stargazers) |
+| **[Rasa](https://github.com/RasaHQ/rasa)** | Open-source conversational AI framework for building contextual chatbots and assistants. | [<img src="https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white" alt="Rasa Stars" />](https://github.com/RasaHQ/rasa/stargazers) |
+| **[Chatwoot](https://github.com/chatwoot/chatwoot)** | Open-source customer engagement platform and AI support helpdesk alternative to Intercom. | [<img src="https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white" alt="Chatwoot Stars" />](https://github.com/chatwoot/chatwoot/stargazers) |
+| **[Typebot](https://github.com/baptisteArno/typebot.io)** | Open-source conversational form builder & lead generation chatbot platform. | [<img src="https://img.shields.io/github/stars/baptisteArno/typebot.io?style=social&color=white" alt="Typebot Stars" />](https://github.com/baptisteArno/typebot.io/stargazers) |
+| **[Botpress](https://github.com/botpress/botpress)** | Open-source developer platform for building modular chatbot automation and agents. | [<img src="https://img.shields.io/github/stars/botpress/botpress?style=social&color=white" alt="Botpress Stars" />](https://github.com/botpress/botpress/stargazers) |
+| **[AstrBot](https://github.com/AstrBotDevs/AstrBot)** | All-in-one multi-platform AI Agent chatbot framework supporting 1000+ plugins. | [<img src="https://img.shields.io/github/stars/AstrBotDevs/AstrBot?style=social&color=white" alt="AstrBot Stars" />](https://github.com/AstrBotDevs/AstrBot/stargazers) |
+| **[Chainlit](https://github.com/Chainlit/chainlit)** | Build production-ready Conversational AI Python apps in minutes with streaming UI. | [<img src="https://img.shields.io/github/stars/Chainlit/chainlit?style=social&color=white" alt="Chainlit Stars" />](https://github.com/Chainlit/chainlit/stargazers) |
+| **[BotMan](https://github.com/botman/botman)** | PHP framework for chatbot development across Slack, Telegram, Messenger, and Alexa. | [<img src="https://img.shields.io/github/stars/botman/botman?style=social&color=white" alt="BotMan Stars" />](https://github.com/botman/botman/stargazers) |
+
+---
+
+## 🤝 How to Contribute 🛠️
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. Fork this repository.
+2. Edit `README.md` to add or update entry details (keep description factual, include pricing/star details).
+3. Submit a Pull Request with a short summary of changes.
+
+---
+
+## ❤️ Support & Sponsorship 🙏
+
+If you find this curated list valuable for your research, team, or project:
+
+- 🌟 **Star the repository** to show support and help others discover it.
+- 🔀 **Fork it** to maintain your custom notes or lists.
+- 📣 **Share it** with colleagues, AI developers, and CX architects!
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and research, consider sponsoring via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Conversational-AI-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Conversational-AI-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer 📜
+
+- This repository is a **community-curated index** and is not affiliated with or endorsed by any listed vendors.
+- Conversational AI software processes user conversations and personal data; ensure strict compliance with GDPR, CCPA, and enterprise privacy policies.
+- **Pricing & Tier Disclaimer**: Pricing models change frequently. Please verify current pricing directly with vendors before procurement.
+
+---
+
+**Made for Conversational AI Engineers, CX Leaders, and Enterprise Architects.**
