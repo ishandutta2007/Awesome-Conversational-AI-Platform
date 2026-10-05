@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+    
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 46px; fill: url(#textGrad); }
+    .subtitle { font-family: system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
+    .badge-text { font-family: system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 13px; fill: #e2e8f0; }
+    
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.08); opacity: 0.8; }
+      100% { transform: scale(1); opacity: 0.4; }
+    }
+    @keyframes float1 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes float2 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    .node-pulse { transform-box: fill-box; transform-origin: center; animation: pulse 4s infinite ease-in-out; }
+    .float-card-1 { transform-box: fill-box; animation: float1 6s infinite ease-in-out; }
+    .float-card-2 { transform-box: fill-box; animation: float2 5s infinite ease-in-out; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Background Dynamic Mesh / Glows (Behind all content) -->
+  <circle cx="150" cy="80" r="140" fill="#38bdf8" opacity="0.12" class="node-pulse" />
+  <circle cx="1050" cy="220" r="160" fill="#c084fc" opacity="0.12" class="node-pulse" />
+
+  <!-- Decorative Dynamic Background Flowlines -->
+  <path d="M 50,250 Q 300,100 600,220 T 1150,80" stroke="url(#textGrad)" stroke-width="2" fill="none" opacity="0.25" />
+  <path d="M 50,80 Q 400,280 800,100 T 1150,220" stroke="#818cf8" stroke-width="1.5" fill="none" opacity="0.2" stroke-dasharray="6,6" />
+
+  <!-- Dynamic Decorative Side Cards (Placed to the right so they don't cover text) -->
+  <g class="float-card-1">
+    <rect x="850" y="50" width="280" height="80" rx="12" fill="url(#cardGrad)" stroke="#818cf8" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="885" cy="90" r="16" fill="#38bdf8" opacity="0.2" />
+    <text x="880" y="95" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="14">💬</text>
+    <text x="915" y="83" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f8fafc">Enterprise NLU &amp; LLMs</text>
+    <text x="915" y="103" font-family="sans-serif" font-size="11" fill="#94a3b8">Copilot, Rasa, Dialogflow &amp; More</text>
+  </g>
+
+  <g class="float-card-2">
+    <rect x="880" y="160" width="260" height="75" rx="12" fill="url(#cardGrad)" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="915" cy="197" r="16" fill="#c084fc" opacity="0.2" />
+    <text x="910" y="202" fill="#c084fc" font-family="sans-serif" font-weight="bold" font-size="14">⚡</text>
+    <text x="945" y="190" font-family="sans-serif" font-size="13" font-weight="bold" fill="#f8fafc">Omnichannel Agents</text>
+    <text x="945" y="210" font-family="sans-serif" font-size="11" fill="#94a3b8">Voice &amp; Chat Automation</text>
+  </g>
+
+  <!-- Main Content Foreground (Left-aligned, completely unobstructed) -->
+  <g transform="translate(60, 0)">
+    <!-- Category Badge -->
+    <rect x="0" y="48" width="220" height="28" rx="14" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-opacity="0.4" />
+    <text x="14" y="66" class="badge-text" fill="#38bdf8">🚀 AWESOME CONVERSATIONAL AI</text>
+
+    <!-- Main Title -->
+    <text x="0" y="130" class="title" filter="url(#glow)">Awesome Conversational AI</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="172" class="subtitle">Curated Enterprise SaaS Platforms &amp; Open-Source AI Agents</text>
+    
+    <!-- Feature Pills -->
+    <g transform="translate(0, 205)">
+      <rect x="0" y="0" width="140" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" />
+      <text x="14" y="20" class="badge-text">☁️ SaaS Leaders</text>
+
+      <rect x="152" y="0" width="165" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" />
+      <text x="166" y="20" class="badge-text">🔓 Open-Source Repos</text>
+
+      <rect x="329" y="0" width="175" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" />
+      <text x="343" y="20" class="badge-text">📊 Market Metrics 2026</text>
+    </g>
+  </g>
+</svg>
